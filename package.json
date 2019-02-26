@@ -1,0 +1,37 @@
+{
+  "name": "cpo-puma-redhat",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pram507/cpo-puma-redhat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pram507/cpo-puma-redhat/issues"
+  },
+  "homepage": "https://github.com/pram507/cpo-puma-redhat#readme",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^6.3.0",
+    "body-parser": "^1.18.3",
+    "bufferutil": "4.0.0",
+    "ejs": "^2.5.6",
+    "express": "4.16.4",
+    "firebase": "^5.5.8",
+    "firebase-admin": "^6.1.0",
+    "moment": "^2.22.2",
+    "plotly": "^1.0.6",
+    "utf-8-validate": "5.0.1",
+    "ws": "6.1.0"
+  },
+  "devDependencies": {
+    "request": "^2.88.0",
+    "tape": "^4.7.0"
+  }
+}

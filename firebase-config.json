@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "result": {
+    "apiKey": "AIzaSyDacpuf4UDc8fYsUIaO_fvhKuVx8_TPPbQ",
+    "authDomain": "cpo-puma.firebaseapp.com",
+    "databaseURL": "https://cpo-puma.firebaseio.com",
+    "projectId": "cpo-puma",
+    "storageBucket": "cpo-puma.appspot.com",
+    "messagingSenderId": "1043350902044"
+  }
+}
