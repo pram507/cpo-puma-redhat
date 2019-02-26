@@ -4,7 +4,13 @@ const path = require("path");
 const line = require("@line/bot-sdk");
 const admin = require("firebase-admin");
 const bodyParser = require("body-parser");
-const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 5000;
+
+var PORT = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
+  IP = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
+
+console.log('start running', [PORT, IP]);
+
 const lineAccount = {
   pram: "U49f359a627201274e2bd4990a379c589",
   groupDancow: "C71fbe9d7f1f17cadb271a4467df9ce49"
