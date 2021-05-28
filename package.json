@@ -28,7 +28,7 @@
     "moment": "^2.22.2",
     "plotly": "^1.0.6",
     "utf-8-validate": "5.0.1",
-    "ws": "6.1.0"
+    "ws": "7.4.5"
   },
   "devDependencies": {
     "request": "^2.88.0",
