@@ -22,7 +22,7 @@
     "body-parser": "^1.18.3",
     "bufferutil": "4.0.0",
     "ejs": "^2.5.6",
-    "express": "4.16.4",
+    "express": "4.17.3",
     "firebase": "^5.5.8",
     "firebase-admin": "^6.1.0",
     "moment": "^2.22.2",
